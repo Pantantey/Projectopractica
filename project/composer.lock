@@ -1500,16 +1500,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "10.0.5",
+            "version": "10.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "dad1e9f8e98bd7818ffc37b41cf4d7e483048b43"
+                "reference": "d9fe0494de876ede8f778041212fcb02bb70591a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/dad1e9f8e98bd7818ffc37b41cf4d7e483048b43",
-                "reference": "dad1e9f8e98bd7818ffc37b41cf4d7e483048b43",
+                "url": "https://api.github.com/repos/drupal/core/zipball/d9fe0494de876ede8f778041212fcb02bb70591a",
+                "reference": "d9fe0494de876ede8f778041212fcb02bb70591a",
                 "shasum": ""
             },
             "require": {
@@ -1658,7 +1658,7 @@
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "10.0.5",
+            "version": "10.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -1703,7 +1703,7 @@
         },
         {
             "name": "drupal/core-project-message",
-            "version": "10.0.5",
+            "version": "10.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-project-message.git",
@@ -1739,16 +1739,16 @@
         },
         {
             "name": "drupal/core-recommended",
-            "version": "10.0.5",
+            "version": "10.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "a4a5c5290ff90ce1eb2aa31dc4913cb29e9679a3"
+                "reference": "954185cbe080bb39d18d4bb1afe563b8352dc7c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/a4a5c5290ff90ce1eb2aa31dc4913cb29e9679a3",
-                "reference": "a4a5c5290ff90ce1eb2aa31dc4913cb29e9679a3",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/954185cbe080bb39d18d4bb1afe563b8352dc7c3",
+                "reference": "954185cbe080bb39d18d4bb1afe563b8352dc7c3",
                 "shasum": ""
             },
             "require": {
@@ -1756,7 +1756,7 @@
                 "composer/semver": "~3.3.2",
                 "doctrine/annotations": "~1.13.3",
                 "doctrine/lexer": "~1.2.3",
-                "drupal/core": "10.0.5",
+                "drupal/core": "10.0.7",
                 "egulias/email-validator": "~3.2.1",
                 "guzzlehttp/guzzle": "~7.5.0",
                 "guzzlehttp/promises": "~1.5.2",
@@ -3504,16 +3504,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.11.13",
+            "version": "v0.11.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "722317c9f5627e588788e340f29b923e58f92f54"
+                "reference": "5350ce0ec8ecf2c5b5cf554cd2496f97b444af85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/722317c9f5627e588788e340f29b923e58f92f54",
-                "reference": "722317c9f5627e588788e340f29b923e58f92f54",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/5350ce0ec8ecf2c5b5cf554cd2496f97b444af85",
+                "reference": "5350ce0ec8ecf2c5b5cf554cd2496f97b444af85",
                 "shasum": ""
             },
             "require": {
@@ -3574,9 +3574,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.11.13"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.11.15"
             },
-            "time": "2023-03-21T14:22:44+00:00"
+            "time": "2023-04-07T21:57:09+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
