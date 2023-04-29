@@ -1,28 +1,28 @@
-uuid: a523bc49-1055-4d03-8ccd-4cab097899ed
+uuid: ca4ed91a-7e52-40a4-9b71-63becd2ce1da
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.recipes.body
-    - field.field.node.recipes.field_comment
-    - field.field.node.recipes.field_cook_time
-    - field.field.node.recipes.field_cuisine
-    - field.field.node.recipes.field_difficulty
-    - field.field.node.recipes.field_ingredients
-    - field.field.node.recipes.field_media
-    - node.type.recipes
+    - field.field.node.chef.field_bibliography
+    - field.field.node.chef.field_name
+    - node.type.chef
   module:
-    - media_library
     - path
     - text
-id: node.recipes.default
+id: node.chef.default
 targetEntityType: node
-bundle: recipes
+bundle: chef
 mode: default
 content:
-  body:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_bibliography:
     type: text_textarea_with_summary
-    weight: 121
+    weight: 123
     region: content
     settings:
       rows: 9
@@ -30,57 +30,13 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
-  created:
-    type: datetime_timestamp
-    weight: 10
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_comment:
-    type: text_textfield
-    weight: 127
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_cook_time:
-    type: number
-    weight: 123
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_cuisine:
-    type: entity_reference_autocomplete
-    weight: 125
-    region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_difficulty:
-    type: options_select
-    weight: 126
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_ingredients:
+  field_name:
     type: string_textfield
     weight: 122
     region: content
     settings:
       size: 60
       placeholder: ''
-    third_party_settings: {  }
-  field_media:
-    type: media_library_widget
-    weight: 124
-    region: content
-    settings:
-      media_types: {  }
     third_party_settings: {  }
   path:
     type: path

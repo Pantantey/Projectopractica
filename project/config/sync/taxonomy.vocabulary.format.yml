@@ -1,0 +1,8 @@
+uuid: 791242e8-ad81-4689-b5e3-40bdf08f2e88
+langcode: en
+status: true
+dependencies: {  }
+name: Format
+vid: format
+description: 'Examples: accompaniment, dessert, main dish'
+weight: 0

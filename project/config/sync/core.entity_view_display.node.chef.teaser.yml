@@ -1,0 +1,24 @@
+uuid: 7b8b8a30-f5de-4e41-a1fb-8414ac95c2d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.chef.field_bibliography
+    - field.field.node.chef.field_name
+    - node.type.chef
+  module:
+    - user
+id: node.chef.teaser
+targetEntityType: node
+bundle: chef
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_bibliography: true
+  field_name: true

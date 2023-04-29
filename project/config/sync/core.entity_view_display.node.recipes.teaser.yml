@@ -5,13 +5,16 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.recipes.body
+    - field.field.node.recipes.field_comment
     - field.field.node.recipes.field_cook_time
     - field.field.node.recipes.field_cuisine
     - field.field.node.recipes.field_difficulty
     - field.field.node.recipes.field_ingredients
     - field.field.node.recipes.field_media
+    - image.style.thumbnail
     - node.type.recipes
   module:
+    - media
     - text
     - user
 id: node.recipes.teaser
@@ -20,21 +23,32 @@ bundle: recipes
 mode: teaser
 content:
   body:
-    type: text_summary_or_trimmed
+    type: text_trimmed
     label: hidden
     settings:
-      trim_length: 600
+      trim_length: 140
     third_party_settings: {  }
-    weight: 101
+    weight: 1
+    region: content
+  field_media:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
 hidden:
+  field_comment: true
   field_cook_time: true
   field_cuisine: true
   field_difficulty: true
   field_ingredients: true
-  field_media: true

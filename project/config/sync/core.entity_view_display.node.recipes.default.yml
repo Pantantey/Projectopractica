@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.recipes.body
+    - field.field.node.recipes.field_comment
     - field.field.node.recipes.field_cook_time
     - field.field.node.recipes.field_cuisine
     - field.field.node.recipes.field_difficulty
@@ -25,6 +26,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  field_comment:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 107
     region: content
   field_cook_time:
     type: number_integer

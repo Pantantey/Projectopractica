@@ -1,0 +1,19 @@
+uuid: 62a686ce-c26e-4c32-bb32-801355f28c24
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name
+    - node.type.chef
+id: node.chef.field_name
+field_name: field_name
+entity_type: node
+bundle: chef
+label: 'Chef Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
