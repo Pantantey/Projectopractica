@@ -1,0 +1,21 @@
+uuid: e5540b78-fda4-418c-9e15-05e12962b142
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.format
+  module:
+    - text
+id: taxonomy_term.format.default
+targetEntityType: taxonomy_term
+bundle: format
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
